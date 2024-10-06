@@ -29,8 +29,9 @@ const LogUserIn = async () => {
 </script>
 
 <template>
-    <form class="" @submit.prevent>
-    <div class="">
+    <form class="m-10" @submit.prevent>
+
+        <div class="pb-1">
             <label for="username" class="block mb-2 font-bold">Username</label>
             <input id="username" v-model="username" type="text" placeholder ="Username">
         </div>
@@ -41,10 +42,7 @@ const LogUserIn = async () => {
             <input id="password" v-model="password" type="password" placeholder="Password">
         </div>
 
+        <button @click="LogUserIn" class="bg-green-500 mt-4 px-4 py-2 hover:bg-green-800 hover:text-white">Sign In</button>
 
-        <button @click="LogUserIn" class="">LOGIN</button>
-
-
-
-</form>
+    </form>
 </template>
