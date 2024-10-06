@@ -23,7 +23,7 @@ import MainCardSingle from './MainCardSingle.vue';
     
     
     
-    <MainCardSingle v-for="card in 20" :key="card"></MainCardSingle>
+    <MainCardSingle v-for="card in 10" :key="card"></MainCardSingle>
 </div>
 
 
